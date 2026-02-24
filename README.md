@@ -33,9 +33,10 @@ To recreate the development environment, you need the following software and/or 
 
 I found these websites useful in developing this software:
 
-* [w3schools](https://developers.arcgis.com/javascript/latest/tutorials/display-a-map/)
-* []()
-* []()
+* [Display a map](https://developers.arcgis.com/javascript/latest/tutorials/display-a-map/)
+* [Intro to MapView - Create a 2D map](https://developers.arcgis.com/javascript/latest/sample-code/intro-mapview/)
+* [MapView](https://developers.arcgis.com/javascript/latest/api-reference/esri-views-MapView.html#:~:text=For%20a%20map%20to%20be%20visible%20to,in%20the%20map%20and%20container%20properties%20respectively.)
+* [Add a point, line, and polygon](https://developers.arcgis.com/javascript/latest/tutorials/add-a-point-line-and-polygon/)
 * []()
 
 ## Future Work
