@@ -9,6 +9,7 @@ import GraphicsLayer from "https://js.arcgis.com/4.34/@arcgis/core/layers/Graphi
 import Graphic from "https://js.arcgis.com/4.34/@arcgis/core/Graphic.js";
 
 import { Marker } from "./Marker.js";
+import { markers } from "./markers.js";
 
 
     
