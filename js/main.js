@@ -6,10 +6,14 @@ esriConfig.apiKey = "AAPTxy8BH1VEsoebNVZXo8HurGVJYBP5RCY3Qd-UftJl3nYGhWn-9U0tmeq
 import Map from "https://js.arcgis.com/4.34/@arcgis/core/Map.js";
 import MapView from "https://js.arcgis.com/4.34/@arcgis/core/views/MapView.js";
 import GraphicsLayer from "https://js.arcgis.com/4.34/@arcgis/core/layers/GraphicsLayer.js";
-import Graphic from "https://js.arcgis.com/4.34/@arcgis/core/Graphic.js";
 
 import { Marker } from "./Marker.js";
-import { markers } from "./markers.js";
+
+
+const response = await fetch("./js/markers.json");
+const markers = await response.json();
+
+console.log(markers);
 
 
     
@@ -28,20 +32,11 @@ const view = new MapView({
         zoom: 12
     });
 
-const point = {
-        //Create a point
-        type: "point",
-        longitude: 6.7352,
-        latitude: 43.4330,
-      };
+markers.forEach(m => {
+  console.log("Marker img:", m.img);
+  const marker = new Marker(m.id, m.img, m.description, m.longitude, m.latitude);
+  graphicsLayer.add(marker.createGraphic());
+});
 
-      const symbol = {
-        type: "picture-marker",
-        url: "https://static.arcgis.com/images/Symbols/Shapes/BlackStarLargeB.png",
-        width: "64px",
-        height: "64px"
-      };
-
-      const pointGraphic = new Graphic({ geometry: point, symbol: symbol });
-      graphicsLayer.add(pointGraphic);
+     
  
