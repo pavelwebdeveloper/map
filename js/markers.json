@@ -1,16 +1,20 @@
 [
     {
-        "id" : 1, 
-        "img" : "images/beaches_in_saint-raphael.jpg",  
-        "description" : "Great beaches for swimming", 
-        "longitude" : 6.7696, 
-        "latitude" : 43.4204
+        "id": 1, 
+        "placeOfInterestType": "beach",
+        "title": "Beaches in Saint-Raphael",
+        "img": "images/beaches_in_saint-raphael.jpg",  
+        "description": "Pleasant sandy beaches", 
+        "longitude": 6.7696, 
+        "latitude": 43.4204
     },
     {
-        "id" : 2, 
-        "img" : "images/fortress_in_saint-tropez.jpg", 
-        "description" : "Castle at Saint-Tropez", 
-        "longitude" : 6.6443, 
-        "latitude" : 43.2723
+        "id": 2,
+        "placeOfInterestType": "fortress",
+        "title": "Fortress", 
+        "img": "images/fortress_in_saint-tropez.jpg", 
+        "description": "Fortress in Saint-Tropez", 
+        "longitude": 6.6443, 
+        "latitude": 43.2723
     }
 ]

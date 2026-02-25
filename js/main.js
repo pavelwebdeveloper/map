@@ -14,14 +14,11 @@ const response = await fetch("./js/markers.json");
 const markers = await response.json();
 
 console.log(markers);
-
-
-    
+   
 const graphicsLayer = new GraphicsLayer();
 
 const map = new Map({ 
-        basemap: "arcgis/topographic", 
-        //basemap: "osm", // this basemap can be used to test access
+        basemap: "arcgis/topographic",
         layers: [graphicsLayer] 
     });
 
@@ -34,7 +31,7 @@ const view = new MapView({
 
 markers.forEach(m => {
   console.log("Marker img:", m.img);
-  const marker = new Marker(m.id, m.img, m.description, m.longitude, m.latitude);
+  const marker = new Marker(m.id, m.placeOfInterestType, m.title, m.img, m.description, m.longitude, m.latitude);
   graphicsLayer.add(marker.createGraphic());
 });
 
