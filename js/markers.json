@@ -70,14 +70,5 @@
         "description": "If you like exploring caves, then you will enjoy approximately 500 meters of an underground walk through tunnels, cave halls with stalactites and stalagmites.", 
         "longitude": 6.81376, 
         "latitude": 43.69324
-    },
-    {
-        "id": 9,
-        "placeOfInterestType": "panorama",
-        "title": "Cave of Baume Obscure", 
-        "img": ["images/cave_of_baume_obscure.jpg", "images/cave_of_baume_obscure_2.jpg", "images/cave_of_baume_obscure_3.jpg", "images/cave_of_baume_obscure_4.jpg"], 
-        "description": "If you like exploring caves, then you will enjoy approximately 500 meters of an underground walk through tunnels, cave halls with stalactites and stalagmites.", 
-        "longitude": 6.81376, 
-        "latitude": 43.69324
     }
 ]
