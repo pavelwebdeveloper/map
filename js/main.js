@@ -14,7 +14,7 @@ const graphicsLayer = new GraphicsLayer();
 
 const map = new Map({ 
         basemap: "arcgis/topographic",
-        //basemap: "osm", // This basemap can be displayed both on GitHub pages and local host
+        //basemap: "osm",
         layers: [graphicsLayer] 
     });
 

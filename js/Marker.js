@@ -16,13 +16,13 @@ export class Marker {
         let symbolPicture;
         switch(this.placeOfInterestType){
             case "beach":
-                symbolPicture = "/icons/beach-solid.svg";
+                symbolPicture = "icons/beach-solid.svg";
                 break;
             case "fortress":
-                symbolPicture = "/icons/fortress.svg";
+                symbolPicture = "icons/fortress.svg";
                 break;
             case "walking":
-                symbolPicture = "/icons/walking.svg";
+                symbolPicture = "icons/walking.svg";
                 break;
         }
         return symbolPicture;
@@ -33,7 +33,7 @@ export class Marker {
         this.img.forEach(i => {
             console.log(i);
             /*images += `<img src="${window.location.origin}/${i}" alt="${window.location.origin}/${this.title}" width="200"/>`*/
-            images += `<img src="/images/${i}" alt="/images/${this.title}" width="200"/>`
+            images += `<img src="images/${i}" alt="images/${this.title}" width="200"/>`
         })
         return images;
     }
