@@ -9,6 +9,15 @@ import GraphicsLayer from "https://js.arcgis.com/4.34/@arcgis/core/layers/Graphi
 
 import { MarkerManager } from "./MarkerManager.js";
 
+document.getElementById("markers-filter-select").addEventListener("change", async function(){
+    const markersToDisplay = document.getElementById("markers-filter-select").value;
+
+    console.log("markersToDisplay $$$$$$$$$$$$$$$$$$$$$$$$$$!!!!!!!!!!!!!!!!!!!!!!!!!!");
+    console.log(markersToDisplay);
+
+    //await markerManager.loadMarkers();
+})
+
 console.log("window.location.origin");
 console.log(window.location.origin);
 
@@ -16,8 +25,8 @@ console.log(window.location.origin);
 const graphicsLayer = new GraphicsLayer();
 
 const map = new Map({ 
-        basemap: "arcgis/topographic",
-        //basemap: "osm",
+        //basemap: "arcgis/topographic",
+        basemap: "osm",
         layers: [graphicsLayer] 
     });
 

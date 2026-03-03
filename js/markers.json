@@ -12,7 +12,7 @@
         "id": 2,
         "placeOfInterestType": "fortress",
         "title": "Citadelle de Saint-Tropez", 
-        "img": ["images/fortress_in_saint-tropez.jpg"], 
+        "img": ["images/citadelle_de_saint-tropez.jpg"], 
         "description": "Fortress in Saint-Tropez", 
         "longitude": 6.6443, 
         "latitude": 43.2723
