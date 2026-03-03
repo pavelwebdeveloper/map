@@ -13,7 +13,8 @@ import { MarkerManager } from "./MarkerManager.js";
 const graphicsLayer = new GraphicsLayer();
 
 const map = new Map({ 
-        basemap: "arcgis/topographic",
+        //basemap: "arcgis/topographic",
+        basemap: "osm",
         layers: [graphicsLayer] 
     });
 
