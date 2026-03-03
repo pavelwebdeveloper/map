@@ -13,8 +13,8 @@ import { MarkerManager } from "./MarkerManager.js";
 const graphicsLayer = new GraphicsLayer();
 
 const map = new Map({ 
-        //basemap: "arcgis/topographic",
-        basemap: "osm",
+        basemap: "arcgis/topographic",
+        //basemap: "osm", // This basemap can be displayed both on GitHub pages and local host
         layers: [graphicsLayer] 
     });
 
