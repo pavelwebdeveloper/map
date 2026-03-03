@@ -24,6 +24,9 @@ export class Marker {
             case "walking":
                 symbolPicture = "icons/walking.svg";
                 break;
+            case "museum":
+                symbolPicture = "icons/museum.svg";
+                break;
         }
         return symbolPicture;
     }

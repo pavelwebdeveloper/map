@@ -25,5 +25,41 @@
         "description": "On this path along the sea you can enjoy a beautiful walk, you will find spectacular seaside sceneries and peaceful small beaches in little secluded bays", 
         "longitude": 6.787278, 
         "latitude": 43.409645
+    },
+    {
+        "id": 4,
+        "placeOfInterestType": "fortress",
+        "title": "Château d'If", 
+        "img": ["images/château_d'If.jpg"], 
+        "description": "Château d'If is a fortress located on an island located approximately 1.5 kilometers from Marseille, a large beautiful city with a rich long history", 
+        "longitude": 5.325700, 
+        "latitude": 43.279653
+    },
+    {
+        "id": 5,
+        "placeOfInterestType": "museum",
+        "title": "Saint-Raphael Archaeological museum", 
+        "img": ["images/saint-raphael_archaeological_museum.jpg", "images/view_from_saint-raphael_archaeological_museum _tower.jpg"], 
+        "description": "Museum of local archeology. You can walk upstairs to the top of a tower and see a spectacular view of surroundings", 
+        "longitude": 6.769237, 
+        "latitude": 43.425921
+    },
+    {
+        "id": 6,
+        "placeOfInterestType": "museum",
+        "title": "Private Cars Collection of Prince of Monaco", 
+        "img": ["images/private_cars_collection_of_prince_of_monaco.jpg", "images/private_cars_collection_of_prince_of_monaco_2.jpg"], 
+        "description": "Museum of cars", 
+        "longitude": 7.421612, 
+        "latitude": 43.735226
+    },
+    {
+        "id": 7,
+        "placeOfInterestType": "museum",
+        "title": "Oceanographic Museum of Monaco", 
+        "img": ["images/oceanographic_museum_of_monaco.jpg", "images/oceanographic_museum_of_monaco_2.jpg", "images/oceanographic_museum_of_monaco_3.jpg"], 
+        "description": "Oceanographic museum with a lot of aquariums. On the top of the museum you can enjoy a spectacular view of Monaco and the sea", 
+        "longitude": 7.426102, 
+        "latitude": 43.730906
     }
 ]
