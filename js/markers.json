@@ -3,18 +3,27 @@
         "id": 1, 
         "placeOfInterestType": "beach",
         "title": "Beaches in Saint-Raphael",
-        "img": "images/beaches_in_saint-raphael.jpg",  
-        "description": "Pleasant sandy beaches", 
+        "img": ["images/beach_in_saint-raphael-1.jpg", "images/beach_in_saint-raphael-2.jpg"],  
+        "description": "Pleasant sandy and pebble beaches", 
         "longitude": 6.7696, 
         "latitude": 43.4204
     },
     {
         "id": 2,
         "placeOfInterestType": "fortress",
-        "title": "Fortress", 
-        "img": "images/fortress_in_saint-tropez.jpg", 
+        "title": "Citadelle de Saint-Tropez", 
+        "img": ["images/fortress_in_saint-tropez.jpg"], 
         "description": "Fortress in Saint-Tropez", 
         "longitude": 6.6443, 
         "latitude": 43.2723
+    },
+    {
+        "id": 3,
+        "placeOfInterestType": "walking",
+        "title": "Calanque de Santa Lucia", 
+        "img": ["images/calanque_de_santa_lucia.jpg"], 
+        "description": "On this path along the sea you can enjoy a beautiful walk, you will find spectacular seaside sceneries and peaceful small beaches in little bays", 
+        "longitude": 6.787278, 
+        "latitude": 43.409645
     }
 ]

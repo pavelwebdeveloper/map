@@ -21,8 +21,20 @@ export class Marker {
             case "fortress":
                 symbolPicture = "/icons/fortress.svg";
                 break;
+            case "walking":
+                symbolPicture = "/icons/walking.svg";
+                break;
         }
         return symbolPicture;
+    }
+
+    #imageDisplay(){
+        let images = ``;
+        this.img.forEach(i => {
+            console.log(i);
+            images += `<img src="${window.location.origin}/${i}" alt="${window.location.origin}/${this.title}" width="200"/>`
+        })
+        return images;
     }
 
     createGraphic(){
@@ -46,7 +58,7 @@ export class Marker {
              popupTemplate: {
                 title: `${this.title}`,
                 content: `
-                    <img src="${window.location.origin}/${this.img}" width="200"/>
+                    ${this.#imageDisplay()}
                     <p>${this.description}</p>
                 `
              }

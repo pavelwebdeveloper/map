@@ -1,9 +1,20 @@
 class MarkerManager {
+    
+
     constructor(){
         this.markers = [];
     }
 
-    addMarker(marker){
-        this.markers.push(marker);
+    async loadMarkers(){
+        const response = await fetch("./js/markers.json");
+        this.markers = await response.json();
+
+        markers.forEach(m => {
+        console.log("Marker img:", m.img);
+        const marker = new Marker(m.id, m.placeOfInterestType, m.title, m.img, m.description, m.longitude, m.latitude);
+        graphicsLayer.add(marker.createGraphic());
+    });
     }
+
+    
 }
