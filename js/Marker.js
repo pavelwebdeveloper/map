@@ -32,7 +32,8 @@ export class Marker {
         let images = ``;
         this.img.forEach(i => {
             console.log(i);
-            images += `<img src="${window.location.origin}/${i}" alt="${window.location.origin}/${this.title}" width="200"/>`
+            /*images += `<img src="${window.location.origin}/${i}" alt="${window.location.origin}/${this.title}" width="200"/>`*/
+            images += `<img src="./images/${i}" alt="./images/${this.title}" width="200"/>`
         })
         return images;
     }

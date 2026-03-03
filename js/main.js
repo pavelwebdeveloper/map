@@ -7,8 +7,7 @@ import Map from "https://js.arcgis.com/4.34/@arcgis/core/Map.js";
 import MapView from "https://js.arcgis.com/4.34/@arcgis/core/views/MapView.js";
 import GraphicsLayer from "https://js.arcgis.com/4.34/@arcgis/core/layers/GraphicsLayer.js";
 
-import { Marker } from "./Marker.js";
-
+import { MarkerManager } from "./MarkerManager.js";
 
    
 const graphicsLayer = new GraphicsLayer();
@@ -27,5 +26,9 @@ const view = new MapView({
 
 
 
+const markerManager = new MarkerManager(view, graphicsLayer);
      
+await markerManager.loadMarkers();
+
+markerManager.addMarkersToMap();
  

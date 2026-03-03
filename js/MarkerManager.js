@@ -1,7 +1,11 @@
-class MarkerManager {
+import { Marker } from "./Marker.js";
+
+export class MarkerManager {
     
 
-    constructor(){
+    constructor(view, graphicsLayer){
+        this.view = view;
+        this.graphicsLayer = graphicsLayer;
         this.markers = [];
     }
 
@@ -9,12 +13,14 @@ class MarkerManager {
         const response = await fetch("./js/markers.json");
         this.markers = await response.json();
 
-        console.log(markers);
+        console.log(this.markers);
+    }
 
-        markers.forEach(m => {
+    async addMarkersToMap(){
+        this.markers.forEach(m => {
         console.log("Marker img:", m.img);
         const marker = new Marker(m.id, m.placeOfInterestType, m.title, m.img, m.description, m.longitude, m.latitude);
-        graphicsLayer.add(marker.createGraphic());
+        this.graphicsLayer.add(marker.createGraphic());
     });
     }
 
