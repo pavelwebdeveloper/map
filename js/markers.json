@@ -61,5 +61,23 @@
         "description": "Oceanographic museum with a lot of aquariums. On the top of the museum you can enjoy a spectacular view of Monaco and the sea", 
         "longitude": 7.426102, 
         "latitude": 43.730906
+    },
+    {
+        "id": 8,
+        "placeOfInterestType": "mountain-cave",
+        "title": "Cave of Baume Obscure", 
+        "img": ["images/cave_of_baume_obscure.jpg", "images/cave_of_baume_obscure_2.jpg", "images/cave_of_baume_obscure_3.jpg", "images/cave_of_baume_obscure_4.jpg"], 
+        "description": "If you like exploring caves, then you will enjoy approximately 500 meters of an underground walk through tunnels, cave halls with stalactites and stalagmites.", 
+        "longitude": 6.81376, 
+        "latitude": 43.69324
+    },
+    {
+        "id": 9,
+        "placeOfInterestType": "panorama",
+        "title": "Cave of Baume Obscure", 
+        "img": ["images/cave_of_baume_obscure.jpg", "images/cave_of_baume_obscure_2.jpg", "images/cave_of_baume_obscure_3.jpg", "images/cave_of_baume_obscure_4.jpg"], 
+        "description": "If you like exploring caves, then you will enjoy approximately 500 meters of an underground walk through tunnels, cave halls with stalactites and stalagmites.", 
+        "longitude": 6.81376, 
+        "latitude": 43.69324
     }
 ]

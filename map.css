@@ -5,12 +5,17 @@ html,body {
     padding: 0;
 }
 
+/*header{
+    z-index: 1;
+}*/
+
 h1{
     text-align: center;
 }
 
 #viewDiv{
-    height: 90vh;
+    /*height: 90vh;*/
+    height: 100vh;
     width: 100%;
 }
 
