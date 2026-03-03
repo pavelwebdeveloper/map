@@ -10,9 +10,6 @@ import GraphicsLayer from "https://js.arcgis.com/4.34/@arcgis/core/layers/Graphi
 import { Marker } from "./Marker.js";
 
 
-
-
-console.log(markers);
    
 const graphicsLayer = new GraphicsLayer();
 
