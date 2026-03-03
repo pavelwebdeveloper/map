@@ -1,6 +1,6 @@
 import esriConfig from "https://js.arcgis.com/4.34/@arcgis/core/config.js";
 
-esriConfig.apiKey = "AAPTxy8BH1VEsoebNVZXo8HurGVJYBP5RCY3Qd-UftJl3nYGhWn-9U0tmeq-hiwLQrOneEiavtS3h6aCovZFpc0fL85XMmaLV3Uk83gok0BNPkQElxTbuiio5E8iA9F3b5Yb2_y3Knf9EOrFGtuq9er5slYi3n8V1-Jc-dz3_PolWPJXSFrcQe8AFPmQXIJcF3njSNIpPNdPlMNzomWYQpmBJkad29XDIbTT37ndlyc15mQ.AT1_12dEYBqc";
+esriConfig.apiKey = "AAPTai3PzD2-f30JnzxTX_PskCQ..I3AAxLd6Ogkkil_bWzXiKUsVvVogH9tmB-czYIVn6NBLvTjmm2rxB11lfBQ0NHXyHg5mOIhStaxulXnI8UKW0_4_-x-kEsKqwSCWDXUrvXUP8aiRhhN77WLMubMRixVY7doIgt6gzeBTIpHdY5lKxRD9XMRaqwzfsASNyaPKDQs6p98xNpxXTqMzCm4pd4bLrNEY1IwnhFZN6QRxltjmouFV2LK0MvfwANYmpVOE3L0cQp7-ubNbJA..AT1_12dEYBqc";
 
 
 import Map from "https://js.arcgis.com/4.34/@arcgis/core/Map.js";
@@ -10,8 +10,7 @@ import GraphicsLayer from "https://js.arcgis.com/4.34/@arcgis/core/layers/Graphi
 import { Marker } from "./Marker.js";
 
 
-const response = await fetch("./js/markers.json");
-const markers = await response.json();
+
 
 console.log(markers);
    
@@ -29,11 +28,7 @@ const view = new MapView({
         zoom: 12
     });
 
-markers.forEach(m => {
-  console.log("Marker img:", m.img);
-  const marker = new Marker(m.id, m.placeOfInterestType, m.title, m.img, m.description, m.longitude, m.latitude);
-  graphicsLayer.add(marker.createGraphic());
-});
+
 
      
  
