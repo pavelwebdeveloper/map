@@ -16,8 +16,8 @@
       <header>
         <h1>Places of interest at Provence-Alpes-Côte d'Azur, France</h1>
           <form id="js-markers-filter-form">  
+                      <label for="markers-filter">Select markers to display</label>
                       <select name="markers-filter" id="markers-filter-select">
-                          <option value="">-- Select markers to display --</option>
                           <option value="all">All markers</option>
                           <option value="beach">Beaches</option>
                           <option value="fortress">Fortresses</option>
@@ -28,8 +28,9 @@
                           <option value="park">Park</option>
                           <option value="lake">Lake</option>
                           <option value="promenade">Promenade</option>
-                      </select><br>
-        </form><br>
+                      </select>
+        </form>
+        <p>Some markers are not visible with this level of zoom. You can zoom out in order to see them.</p>
       </header>
       <div id="viewDiv"></div>
 

@@ -5,9 +5,11 @@ html,body {
     padding: 0;
 }
 
-/*header{
-    z-index: 1;
-}*/
+
+
+header{
+    margin: 1em;
+}
 
 h1{
     text-align: center;
