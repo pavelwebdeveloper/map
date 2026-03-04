@@ -4,30 +4,27 @@ Map WebApp
 
 ## Instructions for Build and Use
 
-[Software Demo]()
+[Software Demo on GitHub pages](https://pavelwebdeveloper.github.io/map/)
+[Software Demo Video]()
 
 Steps to build and/or run the software:
 
-1. 
-2. 
-3. 
-4. 
-
+1. Because the app is hosted on GitHub pages, you just need to navigate to https://pavelwebdeveloper.github.io/map/
 
 Instructions for using the software:
 
-1. 
-2. 
-3. 
-
+1. After the app loads through browser you can see a select element and a map
+2. You can zoom in or out on the map.
+3. On the map you will see markers.
+4. Some markers are not visible with this level of zoom. You can zoom out in order to see them.
+5. When you click a marker, a popup window appears with 1 or more photos and information about what the marker represents.
 
 ## Development Environment
 
 To recreate the development environment, you need the following software and/or libraries with the specified versions:
 
 * Visual Studio Code
-* 
-* 
+* Browser. I used Google Chrome Version 145.0.7632.117 
 
 ## Useful Websites to Learn More
 
@@ -41,11 +38,11 @@ I found these websites useful in developing this software:
 * [Graphic](https://developers.arcgis.com/javascript/latest/references/core/Graphic/)
 * [PopupTemplate](https://developers.arcgis.com/javascript/latest/references/core/PopupTemplate/)
 * [Search Engine for Icons](https://iconbuddy.com/)
+* [500.000+ Open-licensed SVG Vector and Icons](https://www.svgrepo.com/)
 
 ## Future Work
 
 The following items I plan to fix, improve, and/or add to this project in the future:
 
-* [ ] 
-* [ ] 
-* [ ] 
+* [ ] To add some styles to make the app look better
+* [ ] To add it to my website about French riviera
