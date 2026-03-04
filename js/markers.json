@@ -70,5 +70,113 @@
         "description": "If you like exploring caves, then you will enjoy approximately 500 meters of an underground walk through tunnels, cave halls with stalactites and stalagmites.", 
         "longitude": 6.81376, 
         "latitude": 43.69324
+    },
+    {
+        "id": 9,
+        "placeOfInterestType": "panorama",
+        "title": "Point View Monaco", 
+        "img": ["images/point_view_monaco.jpg"], 
+        "description": "A beautiful panorama of the coast around Monaco and Monaco itself", 
+        "longitude": 7.42020, 
+        "latitude": 43.75352
+    },
+    {
+        "id": 10,
+        "placeOfInterestType": "beach",
+        "title": "Beach in Agay", 
+        "img": ["images/beach_in_agay.jpg"], 
+        "description": "Beautiful beaches in Agay", 
+        "longitude": 6.85938, 
+        "latitude": 43.43335
+    },
+    {
+        "id": 11,
+        "placeOfInterestType": "beach",
+        "title": "Beach in Cannes", 
+        "img": ["images/beach_in_cannes.jpg"], 
+        "description": "Sandy beaches in Cannes", 
+        "longitude": 7.02448, 
+        "latitude": 43.54958
+    },
+    {
+        "id": 12,
+        "placeOfInterestType": "beach",
+        "title": "Beach in Dramont", 
+        "img": ["images/beach_in_dramont.jpg"], 
+        "description": "Pebble beach in Dramont", 
+        "longitude": 6.84243, 
+        "latitude": 43.41644
+    },
+    {
+        "id": 13,
+        "placeOfInterestType": "walking",
+        "title": "Walking path in Dramont", 
+        "img": ["images/walking_path_in_dramont.jpg"], 
+        "description": "Walking path along the sea in Dramont", 
+        "longitude": 6.85808, 
+        "latitude": 43.41955
+    },
+    {
+        "id": 14,
+        "placeOfInterestType": "park",
+        "title": "Park Aurelien", 
+        "img": ["images/park_aurelien.jpg"], 
+        "description": "Park with ancient roman ruins", 
+        "longitude": 6.74313, 
+        "latitude": 43.44302
+    },
+    {
+        "id": 15,
+        "placeOfInterestType": "beach",
+        "title": "Beaches in Frejus", 
+        "img": ["images/beach_in_frejus.jpg"], 
+        "description": "Pleasant wide sandy beaches in Frejus", 
+        "longitude": 6.75574, 
+        "latitude": 43.42297
+    },
+    {
+        "id": 16,
+        "placeOfInterestType": "park",
+        "title": "Botanical garden in Sainte-Maxime", 
+        "img": ["images/botanical_garden_in_sainte-maxime.jpg"], 
+        "description": "Beautiful botanical garden in Sainte-Maxime", 
+        "longitude": 6.62628, 
+        "latitude": 43.30187
+    },
+    {
+        "id": 17,
+        "placeOfInterestType": "museum",
+        "title": "Museum of the Decorative Arts, Fashion and Ceramics", 
+        "img": ["images/museum_in_marseille.jpg", "images/museum_in_marseille_2.jpg"], 
+        "description": "Museum of the Decorative Arts, Fashion and Ceramics", 
+        "longitude": 5.38278, 
+        "latitude": 43.25713
+    },
+    {
+        "id": 18,
+        "placeOfInterestType": "lake",
+        "title": "Lake Saint-Cassien", 
+        "img": ["images/lake_saint_cassien.jpg"], 
+        "description": "Lake Saint-Cassien", 
+        "longitude": 6.80521, 
+        "latitude": 43.58500
+    },
+    {
+        "id": 19,
+        "placeOfInterestType": "promenade",
+        "title": "Promenade des Anglais", 
+        "img": ["images/promenade_des_anglais_in_nice.jpg"], 
+        "description": "You can have a very pleasant walk along Promenade des Anglais in Nice", 
+        "longitude": 7.25184, 
+        "latitude": 43.69238
+    },
+    {
+        "id": 20,
+        "placeOfInterestType": "promenade",
+        "title": "Estacade in Cannes", 
+        "img": ["images/estacade_in_cannes.jpg"], 
+        "description": "You can have a very pleasant walk on Estacade and along Promenade de la Croisette", 
+        "longitude": 7.01457, 
+        "latitude": 43.54596
     }
 ]

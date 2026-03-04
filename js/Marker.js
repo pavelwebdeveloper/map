@@ -30,6 +30,18 @@ export class Marker {
             case "mountain-cave":
                 symbolPicture = "icons/mountain-cave.svg";
                 break;
+            case "panorama":
+                symbolPicture = "icons/panorama-svgrepo-com.svg";
+                break;
+            case "park":
+                symbolPicture = "icons/park-svgrepo-com.svg";
+                break;
+            case "lake":
+                symbolPicture = "icons/lake-svgrepo-com.svg";
+                break;
+            case "promenade":
+                symbolPicture = "icons/promenade-svgrepo-com.svg";
+                break;
         }
         return symbolPicture;
     }
@@ -38,8 +50,8 @@ export class Marker {
         let images = ``;
         this.img.forEach(i => {
             console.log(i);
-            images += `<img src="${window.location.origin}/map/${i}" alt="${this.title}" width="200"/>` // Works for GitHub pages
-            /*images += `<img src="${window.location.origin}/${i}" alt="${this.title}" width="200"/>`*/ // Works for local host
+            /*images += `<img src="${window.location.origin}/map/${i}" alt="${this.title}" width="200"/>`*/ // Works for GitHub pages
+            images += `<img src="${window.location.origin}/${i}" alt="${this.title}" width="200"/>` // Works for local host
         })
         return images;
     }
