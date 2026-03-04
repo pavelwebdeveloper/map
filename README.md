@@ -18,6 +18,7 @@ Instructions for using the software:
 3. On the map you will see markers.
 4. Some markers are not visible with this level of zoom. You can zoom out in order to see them.
 5. When you click a marker, a popup window appears with 1 or more photos and information about what the marker represents.
+6. You can choose which markers to display with the select element.
 
 ## Development Environment
 
