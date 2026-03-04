@@ -50,8 +50,8 @@ export class Marker {
         let images = ``;
         this.img.forEach(i => {
             console.log(i);
-            /*images += `<img src="${window.location.origin}/map/${i}" alt="${this.title}" width="200"/>`*/ // Works for GitHub pages
-            images += `<img src="${window.location.origin}/${i}" alt="${this.title}" width="200"/>` // Works for local host
+            images += `<img src="${window.location.origin}/map/${i}" alt="${this.title}" width="200"/>` // Works for GitHub pages
+            /*images += `<img src="${window.location.origin}/${i}" alt="${this.title}" width="200"/>`*/ // Works for local host
         })
         return images;
     }
