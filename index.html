@@ -7,16 +7,13 @@
     <!-- ArcGIS theme CSS (required) -->
     <link rel="stylesheet" href="https://js.arcgis.com/4.34/@arcgis/core/assets/esri/themes/light/main.css">
     <link rel="stylesheet" href="map.css">
-
-    
   </head>
 
   <body>
-
       <header>
         <h1>Places of interest at Provence-Alpes-Côte d'Azur, France</h1>
           <form id="js-markers-filter-form">  
-                      <label for="markers-filter">Select markers to display</label>
+                      <label for="markers-filter-select">Select markers to display</label>
                       <select name="markers-filter" id="markers-filter-select">
                           <option value="all">All markers</option>
                           <option value="beach">Beaches</option>
@@ -32,9 +29,9 @@
         </form>
         <p>Some markers are not visible with this level of zoom. You can zoom out in order to see them.</p>
       </header>
+
       <div id="viewDiv"></div>
 
       <script type="module" src="js/main.js"></script>
   </body>
-
 </html>
